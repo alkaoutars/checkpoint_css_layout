@@ -1,0 +1,102 @@
+/* @media(min-width:440px){ */
+    body{
+    background-color: #7F7F9B;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    text-align: center;
+    color: #485F55;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 110px;
+    height:110px;
+}
+
+h1{
+    text-align: center;
+}
+#menu{
+        text-align: center;
+        display: flex;  justify-content: center;
+        background-color: #2B2D42;
+        flex-flow: row wrap ; 
+        padding: 20px;  
+        border-radius: 20px 20px 20px 20px; 
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+.bouton, .bouton a {
+        text-decoration: none;
+        margin-right: 40px;
+        list-style-type:none;
+        color: white;
+        
+    }
+
+    .container {
+        position: relative;
+        /* display: inline-block; */
+        padding: 20px;
+        display: flex;
+        /* margin: 100px; */
+    }
+  
+      .image {
+        display: block;
+        width: 1450px;
+        height: 250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px 20px 20px 20px;
+        
+      }
+  
+      .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        color: white;
+        
+      }
+
+    .centre {
+        display: flex;
+        gap: 2rem 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .section{
+    
+        background-color: #FFECCE;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        
+    }
+    .section img {
+        max-width: 100%;
+        }
+
+    .footer{
+        margin: 20px;
+        padding: 20px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+
+    }
+    /* #copy{
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin-left: 20px;
+    }
+     #fimage{ 
+        max-width: 60%;
+        margin: 20px;
+
+    }
